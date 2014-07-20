@@ -1,0 +1,17 @@
+[
+{
+"name":"pigeon",
+"src":"img/birds/pigeon.jpg",
+"url" :"http://www.w3schools.com/html/movie.mp4"
+},
+{
+"name":"cock",
+"src":"img/birds/cock.jpg",
+"url" :"http://www.w3schools.com/html/mov_bbb.mp4"
+},
+{
+"name":"peacock",
+"src":"img/birds/peacock.jpg",
+"url" :"xxxxx"
+}
+]
