@@ -15,7 +15,12 @@ var zacApp = angular.module('zacApp', ['ngRoute']);
 				templateUrl : 'partials/birds.html',
 				controller  : 'birdsController'
 			})
-            // route for video page
+			//route for television
+			.when('/television', {
+				templateUrl : 'partials/television.html',
+				controller  : 'televisionController'
+			})
+                        // route for video page
 			.when('/video', {
 				templateUrl : 'partials/video.html',
 				controller  : 'videoController'
@@ -25,7 +30,28 @@ var zacApp = angular.module('zacApp', ['ngRoute']);
 				templateUrl : 'partials/dailyLife.html',
 				controller  : 'dailyLifeController'
 			});
+			//route for books page
+			.when('/books', {
+				templateUrl : 'partials/books.html',
+				controller  : 'booksController'
+			});
+			//route for games page
+			.when('/games', {
+				templateUrl : 'partials/games.html',
+				controller  : 'gamesController'
+			});
+			//route for music page
+			.when('/music', {
+				templateUrl : 'partials/music.html',
+				controller  : 'musicController'
+			});
+			//route for draw page
+			.when('/draw', {
+				templateUrl : 'partials/draw.html',
+				controller  : 'drawController'
+			});
 	});
+
 
 	
 
