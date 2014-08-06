@@ -3,6 +3,7 @@
 <head>
 
 <link type="text/css" rel="stylesheet" href="css/app.css" />
+<link href="css/lightbox.css" rel="stylesheet" />
 
 <script src="lib/angular.min.js"></script>
 <script src="lib/angular-route.js"></script>
@@ -16,6 +17,9 @@
 <script src="js/controllers/dailyLifeCtrl.js"></script>
 <script src="js/controllers/videoCtrl.js"></script>
 <script src="js/controllers/televisionCtrl.js"></script> 
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 </head>
 
 <body ng-app="zacApp">
@@ -29,13 +33,15 @@
 
 	<!-- MAIN CONTENT AND INJECTED VIEWS -->
 	<div id="main">
-
-		<div ng-view></div>
+ 
+		<div ng-view>
+		
+		</div>
 
 	</div>
 
 	<!-- FOOTER -->
-	<footer > Powered by SPACE </footer>
+	<footer >  </footer>
 
 </body>
 </html>

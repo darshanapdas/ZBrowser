@@ -8,7 +8,7 @@ body {
 }
 
 .icons {
-	margin-top: 380px;
+	margin-top: 480px;
 	margin-left: auto;
 }
 
@@ -17,18 +17,29 @@ body {
 	width: auto; //
 	float: left; //
 	text-align: center;
+	margin-left:300px;
 }
 
 .list-img img {
 	display: inline;
 	padding: 5px;
 	width: 102px;
-	height: 102px;
+	height: auto;
 }
 
 .birdsList img {
 	float: left;
 	padding: 10px;
+}
+
+.view-show {
+  position:relative;
+  height:100px!important;
+  position:relative;
+  background:white;
+  border:1px solid black;
+  height:40px;
+  overflow:hidden;
 }
 
 footer {
