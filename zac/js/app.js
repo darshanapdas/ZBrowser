@@ -50,6 +50,21 @@ var zacApp = angular.module('zacApp', ['ngRoute']);
 				templateUrl : 'partials/draw.html',
 				controller  : 'drawController'
 			})
+			//route for tv partial page1
+			.when('/tvp1', {
+				templateUrl : 'partials/tvpartial1.html',
+				controller  : ''
+			})
+			
+			.when('/tvp2', {
+				templateUrl : 'partials/tvpartial2.html',
+				controller  : ''
+			})
+			
+			.when('/tvp3', {
+				templateUrl : 'partials/tvpartial3.html',
+				controller  : ''
+			})
 	});
 
 
