@@ -1,10 +1,10 @@
 <div class="contact">
 	<h1>Fun videos</h1>
-	<video id="example_video_1" class="video-js vjs-default-skin"
-           controls preload="auto" width="640" height="264"
-           poster="./img/example_poster.jpg"
-           data-setup='{"example_option":true}'>
-  
-         <source src="example_video_url" type='video/mp4' />
-        </video>
+	<div  ng-repeat="media in fun_scr" class="video">
+		<video id="example_video_1" class="video-js vjs-default-skin"
+		  controls preload="auto" width="640" height="264"
+		  poster="./img/example_poster.jpg"
+		  data-setup='{"example_option":true}' ng-src="{{media.src}}">
+		</video>
+	</div>
 </div>

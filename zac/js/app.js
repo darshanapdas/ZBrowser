@@ -53,17 +53,17 @@ var zacApp = angular.module('zacApp', ['ngRoute']);
 			//route for tv partial page1
 			.when('/tvp1', {
 				templateUrl : 'partials/tvpartial1.html',
-				controller  : ''
+				controller  : 'televisionController'
 			})
 			
 			.when('/tvp2', {
 				templateUrl : 'partials/tvpartial2.html',
-				controller  : ''
+				controller  : 'televisionController'
 			})
 			
 			.when('/tvp3', {
 				templateUrl : 'partials/tvpartial3.html',
-				controller  : ''
+				controller  : 'televisionController'
 			})
 	});
 

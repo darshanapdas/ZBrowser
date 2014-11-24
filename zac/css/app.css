@@ -42,6 +42,13 @@ body {
   overflow:hidden;
 }
 
+.video{ 
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
 footer {
 	clear: both;
 }
