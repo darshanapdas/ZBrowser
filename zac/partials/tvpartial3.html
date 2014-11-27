@@ -1,10 +1,10 @@
 <div class="contact">
 	<h1>Cartoon videos</h1>
-	<div  ng-repeat="media in cart_scr" class="video">
+	<div  ng-repeat="media in list[2].src" class="video">
 		<video id="example_video_1" class="video-js vjs-default-skin"
 		  controls preload="auto" width="640" height="264"
 		  poster="./img/example_poster.jpg"
-		  data-setup='{"example_option":true}' ng-src="{{media.src}}">
+		  data-setup='{"example_option":true}' ng-src="{{media}}">
 		</video>
 	</div>
 </div>
