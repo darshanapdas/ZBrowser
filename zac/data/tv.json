@@ -3,19 +3,16 @@
 "items":[
 	{
 	"image_name":"./img/tvp1.png",
-	"partial":"#tvp1",
 	"item_name":"educational",
 	"src":["vid1.mp4","vid2.mp4"]
 	},
 	{
 	"image_name":"./img/tvp2.jpg",
-	"partial":"#tvp2",
 	"item_name":"fun",
 	"src":["vid1.mp4","vid2.mp4"]
 	},
         {
 	"image_name":"./img/tvp3.jpg",
-	"partial":"#tvp3",
 	"item_name":"cartoon",
 	"src":["vid1.mp4","vid2.mp4","vid3.mp4"]
 	}
