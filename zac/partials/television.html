@@ -1,19 +1,20 @@
 <div class="contact">
 	<h1> Television page </h1>
-	<div ng-repeat="item in list" >
+	<div ng-repeat="item in list" ng-if="clicked">
 	
-		<div ng-if="clicked" class="list-img">
+		<div class="list-img">
 			</br>
 			<img ng-src="{{item.image_name}}" ng-click="showItems(item.item_name,item.src)">
 		</div>
 	</div>
 	
-	<div  class="video" ng-repeat="item1 in url">
-	       
+	<div  class="video" ng-repeat="url in urls">
+
 		<video id="example_video_1" class="video-js vjs-default-skin"
 		  controls preload="auto" width="640" height="264"
 		  poster="./img/example_poster.jpg"
-		  data-setup='{"example_option":true}' ng-src="{{item}}">
+		  data-setup='{"example_option":true}' ng-src="{{url}}">
 		</video>
+	  
 	</div>
 </div>

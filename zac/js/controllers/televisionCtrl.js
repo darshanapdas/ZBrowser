@@ -17,8 +17,8 @@ zacApp.controller('televisionController', function($scope, $http) {
 			$scope.showItems= function(name, src){
 			  $scope.clicked=false;
 			
-			  $scope.url = [];
-			  $scope.url = src;
+			  $scope.urls = [];
+			  $scope.urls = src;
 			  console.log('showitems');
 			  
 			 
